@@ -1,0 +1,579 @@
+/* Definire CSS - Fabrica de inox 
+Copyright © 2008. All Rights Reserved. Designed by Smartmouse 
+*/
+
+body{
+	background-color:#000d3a;
+	background-image:url(images/8_04.gif);
+	width:100%;
+	}
+
+.bktop{
+	width:428px;
+	background-image:url(images/8_02.jpg);
+	background-repeat:no-repeat;
+	margin-left:0;
+	margin-top:0;
+	top:0;
+	}
+
+#header{
+	width:100%;
+	left:10%;
+
+	
+	}
+
+.container{
+	margin:0 auto;
+	width:50%;
+	
+	}
+	
+.container li
+	{
+	   
+	    float:left;
+	    margin: 20px 20px 0 20px;
+	    padding:0;
+	    height:23px;
+	    list-style:none;
+	    line-height:2;
+	}
+	
+.logo{
+	float:none;
+	/*text-align:center;*/
+	width:110%;
+	left:20%;
+	right:50%;
+	display:block;
+	top:5%;
+	/*padding-left:5%;
+	padding-top:20%;
+	padding-right:10%;*/
+	}
+	
+#meniu{
+	width:70%;
+	height:10%;
+	vertical-align:middle;
+	text-align:center;
+	position:absolute;
+	top:30px;
+	z-index:2;
+	left: 29%;
+	right:9%;
+}
+
+#meniu li
+	{
+	   
+	    float:left;
+	    margin: 0 2% 0 2%;
+	    padding:0;
+	    height:23px;
+	    list-style:none;
+	    line-height:1;
+	}
+#facebook{
+	position:absolute;
+	right:4%;
+	top:15%;
+}
+
+#page{
+	width:80%;
+	top:83px;
+	height:1150px;
+	background-image:url(images/pagina.jpg);
+	background-color:#FFF;
+	background-repeat:repeat-x;
+	position:absolute;
+	left:10%;
+	right:10%;
+	z-index:1;
+	
+	}
+
+.animation{
+	top:20px;
+	width:100%;
+	position:absolute;
+	margin:0 auto;
+	text-align:center;
+	z-index:2;
+}
+
+
+
+
+
+
+
+
+#text{
+	font-size:12px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style:italic;
+	padding-top:0px;
+	padding-left:0;
+	padding-right:0;
+	padding-bottom:200px;
+	position:relative;
+	left:0%;
+	right:10%;
+	z-index:3;
+	
+}
+
+#bkof{
+	width:100%;
+	height:417px;
+	background-image:url(images/012345fw.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+	position:relative;
+	
+	right:1%;
+}
+
+#txof{
+	
+	color:#FF0;
+	font-size:24px;
+	text-align:left;
+	text-shadow:#F09;
+	text-decoration:blink;
+	position:relative;
+	left:6%;
+	top:5.5%;
+	
+}
+
+#txexof{
+	color:#000;
+	width:45%;
+	text-shadow:#FFC;
+	text-align:right;
+	font-size:21px;
+	position:absolute;
+	left: 34%;
+	top: 5%;
+	height:10%;
+	
+	
+}
+
+#collage-container{
+	top:23%;
+	height:60%;
+	margin: 30px auto;
+	position: relative;
+	/*border: 2px solid #777;*/
+}
+
+#collage-one,#collage-two,#collage-three,#collage-four,
+#collage-five,#collage-six,#collage-seven{
+	
+	height:60%;
+	padding:10px;
+	background:#eee;
+	border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	position:absolute;
+}
+
+#collage-one{
+z-index:1;
+top:45%;
+left:15%;
+transform:rotate(-20deg);
+-o-transform:rotate(-20deg);
+-moz-transform:rotate(-20deg);
+-webkit-transform:rotate(-20deg);
+}
+
+#collage-two{
+z-index:2;
+top:30%;
+right:15%;
+transform:rotate(20deg);
+-o-transform:rotate(20deg);
+-moz-transform:rotate(20deg);
+-webkit-transform:rotate(20deg);
+}
+
+#collage-three{
+z-index:3;
+top:30%;
+left:20%;
+transform:rotate(30deg);
+-o-transform:rotate(30deg);
+-moz-transform:rotate(30deg);
+-webkit-transform:rotate(30deg);
+}
+#collage-four{
+z-index:6;
+top:50%;
+right:45%;
+transform:rotate(15deg);
+-o-transform:rotate(15deg);
+-moz-transform:rotate(15deg);
+-webkit-transform:rotate(15deg);
+}
+#collage-five{
+z-index:5;
+top:15%;
+left:59%;
+transform:rotate(-40deg);
+-o-transform:rotate(-40deg);
+-moz-transform:rotate(-40deg);
+-webkit-transform:rotate(-40deg);
+}
+#collage-six{
+z-index:4;
+top:7%;
+left:36%;
+transform:rotate(-10deg);
+-o-transform:rotate(-10deg);
+-moz-transform:rotate(-10deg);
+-webkit-transform:rotate(-10deg);
+}
+
+
+#collage-seven{
+z-index:7;
+top:12%;
+left:48%;
+transform:rotate(30deg);
+-o-transform:rotate(30deg);
+-moz-transform:rotate(30deg);
+-webkit-transform:rotate(30deg);
+}
+
+.size{
+
+	width:100%;
+	
+	
+	}
+
+#popup{
+	background-color:#000d3a;
+	text-align:center;
+	height:70%;
+	width: 52%;
+	position:fixed;
+	top: 20%;
+	left: 20%;
+	right:10%;
+	display:none;
+	visibility:visible;
+	border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	
+	
+	}
+#center{
+    border: 10px solid #000d3a;
+    margin: 1% auto;
+	text-align:center;
+}
+#lightbox
+{
+	border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-style:solid;
+	border-color:#FFF;
+	/*border-spacing:7px;*/
+	padding:7px;
+	z-index:1;
+
+}
+
+
+#close{
+    float: right;
+    position: absolute;
+    top: 0;
+	z-index:2;
+	}
+
+.img{
+	float:right;
+	-webkit-width:70%;
+	text-align:right;
+	padding:3px;
+	background:#000;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	-ie-border-radius:15px;
+	
+	}	
+	.img1{
+		-webkit-width:70%;
+		text-align:right;
+	padding:3px;
+	background:#000;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+		
+	}
+	
+	
+	
+.txt{
+	text-align:left;
+	font-size:16px;
+	display:table-cell;
+	left:10px;
+
+	
+	}	
+.textgp{
+	font-size:38px;
+	font-style:italic;
+	text-align:center;
+	margin-top:50px;
+	margin-bottom:60px;
+	
+	
+	}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#menu2 {
+	width: 100%;
+	height:3px;
+	margin: 0 0 0 0;
+	padding: 0,5%;
+	text-align:center;
+	text-transform:lowercase;
+	font-family:Verdana, Geneva, sans-serif;
+	font-style:normal;
+	font-size:12px;
+	line-height: normal;
+	font-weight: 330px;
+	position:absolute;
+	top:30px;
+	
+}
+
+#menu2 ul {
+	width:100%;
+	height: 37px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+#menu2 li {
+	display: inline;
+	width: auto;
+}
+
+
+
+#menu2 a:hover {
+	background: #000d3a;
+	color: #FFC;
+}
+
+#menu2 .first a {
+	border: none;
+}
+
+
+
+
+#sddm2
+{
+	position:relative;
+	margin: 0 0 0  0;
+	padding: 2px;
+	z-index: 40;
+	text-transform:lowercase;
+}
+
+#sddm2 li
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font-size: 12px;
+	background-position: center;
+	width: 11.5%;
+	cursor:  crosshair;
+	font-weight: bold;
+	text-transform: capitalize;
+	border: 1.5px solid;
+	border-color:#FFC;
+	white-space:nowrap;
+}
+
+#sddm2 li a
+{
+	display: block;
+	width: 100%;
+	color: #FFF;
+	text-align: center;
+	padding-top: 7px;
+	padding-right: 0px;
+	padding-bottom: 7px;
+	padding-left: 0px;
+	text-decoration: none;
+	background-color: #000d3a;
+	border color: #000000;
+
+}
+
+#sddm2li a:hover
+{
+	color: #ffffff;
+	background-color: #FFC;
+	}
+
+#sddm2 div
+{
+	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 2PX;
+	background: #000d3a;
+	color: #FFFFFF;
+	border: 0.8px solid #000000;
+}
+
+	#sddm2 div a
+	{
+	position: relative;
+	display: block;
+	margin: 2PX;
+	width: auto;
+	white-space: nowrap;
+	text-align: left;
+	text-decoration: none;
+	background: #000d3a;
+	color: #ffffff;
+	font-size: 12px;
+}
+
+	#sddm2 div a:hover
+	{
+	color: #000;
+	background-color: #FFC;
+}
+
+.text1 {
+	clear: both;
+	padding-top: 40px;
+	padding-left: 69px;
+	padding-right:69px;
+	position:relative;
+	z-index:20;
+}
+
+.text1 .content {
+	/*line-height: 1.8em;*/
+	width: 80%;
+	padding-left:10%;
+	padding-right:10%;
+	
+}
+
+
+.bar {
+	width: 300px;
+	background-color:#000d3a;
+	background-image:url(images/5-7.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	color: #FFC;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 17px;
+}
+
+
+
+
+#imgright{
+	width:370px;
+	height:470px;
+	background-image:url(images/10_19.png);
+	background-repeat:no-repeat;
+	background-position:bottom right;
+	position:absolute;
+	margin-bottom:0px;
+	margin-right:0px;
+	text-align:right;
+	vertical-align:bottom;
+	position:absolute;
+	right:0%;
+	bottom:0%;
+	z-index:1;
+	
+	
+	
+}
+
+#frame{
+	top:50px;
+	position:relative;
+	left:0;
+	right:0;
+	z-index:25;
+	
+	
+	
+	}
+	
+#footer{
+	width:100%;
+	height:20px;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:9px;
+	color:#CF9;
+	position:absolute;
+	top:1231px;
+	left:4%;
+	z-index:14;
+	
+	}
+
+#linkuri {
+	float: right;
+	width:90%;
+	padding-right:0;
+	padding-top: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	position:absolute;
+	top:1235px;
+	left:9%;
+	bottom:0;
+	clear:left;
+}

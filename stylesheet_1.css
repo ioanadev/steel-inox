@@ -1,0 +1,611 @@
+/* Definire CSS - Fabrica de inox 
+Copyright © 2008. All Rights Reserved. Designed by Smartmouse 
+*/
+
+body{
+	background-color:#000d3a;
+	background-image:url(images/8_04.gif);
+	float: none;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	}
+
+.bktop{
+	width:428px;
+	background-image:url(images/8_02.jpg);
+	background-repeat:no-repeat;
+	margin-left:0;
+	margin-top:0;
+	top:0;
+	}
+#page{
+	height:auto;
+	width:1000px;
+	float:none;
+	background-image:url(images/pagina2.jpg);
+	background-color:#FFF;
+	background-repeat:repeat;
+	background-position:center top;
+	margin-left:30%;
+	margin-right:30%;
+	margin-top:5%;
+	margin-bottom:5%;
+	padding:5%;
+}
+
+
+#header{
+	height:120px;
+	width:100%;
+	margin:auto;
+	position:relative;
+	
+}
+.logo{
+	height:auto;
+	width:auto;
+	top:10px;
+	left:10px;
+	position:relative;
+}
+#hest{
+	display:inline;
+	float:left;
+	
+	}
+#hedr{
+	display:inline;
+	float:right;
+	}
+.h1{
+	visibility:hidden;
+	}	
+	
+.line{
+	color:#0066FF;
+	background-color:#0066FF;
+	height:6px;
+	}
+.line2a{
+	color:#0066FF;
+	background-color:#0066FF;
+	height:6px;
+	display:inline;
+	float:left;
+	top: 974px;
+	margin:5px 5px 0 1px ;
+	}
+
+.line2b{
+	color:#0066FF;
+	background-color:#0066FF;
+	height:6px;
+	display:inline;
+	float:left;
+	top: 974px;
+	margin:5px  11px 0 11px;
+	}
+.line2c{
+	color:#0066FF;
+	background-color:#0066FF;
+	height:6px;
+	display:inline;
+	float:left;
+	top: 974px;	
+	margin:5px 1px 0 5px;
+	}
+	
+	#facebook{
+	display:inline;
+	float:right;
+	height:36px;
+	padding:0.7%;
+	
+	}
+	
+	
+#menu{
+	height:50px;
+	width:550px;
+	padding-left:300px;
+	top:200px;
+	float:right;
+	margin:0 5px 0 5px;
+	color:#666;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+}
+
+#menu li{
+	display:inline;
+	}
+	
+	#menu a {
+	display: block;
+	float: left;
+	padding: 1px 20px 1px 20px;
+	text-transform:capitalize;
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color:#666;
+	border-left-color:#69F;
+	border-right-color:#69F;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-right-style:solid;
+	border-left-style: solid;
+}
+#menu a:hover {
+	color:#09F;
+}
+
+#menu .first a {
+	border: none;
+}
+
+
+
+
+
+
+#pozapp{
+	margin:2.5%;
+	}
+	#content{
+		width:998px;
+		height:250px;
+		
+	}
+	html #content{
+		height:250px;
+		}/*for IE6 and under*/
+
+#produse1{
+	width:320px;
+	height:250px;
+	top:680px;
+	background-color:#39F;
+	color:#FFF;
+	font-family:"Times New Roman", Times, serif;
+	font-size:18px;
+	border-color:#39F;
+	border-style:solid;
+	border-width:1px;
+	display:inline;
+	float:left;
+	
+	}
+	
+#produse2{
+	width:320px;
+	height:250px;
+	top:680px;
+	right:275px;
+	background-color:#39F;
+	color:#FFF;
+	font-family:"Times New Roman", Times, serif;
+	font-size:18px;
+	border-color:#39F;
+	border-style:solid;
+	border-width:1px;
+	display:inline;/*cure IE6 double margin bug*/
+	float:right;
+	}
+	#slide{
+	display:inline;
+	border-color:#39F;
+	border-width:2px;
+	border-style:solid;
+	margin:0 15px 0 15px;
+	top: 680px;
+	float:left;
+	}
+	
+#content2{
+		width:998px;
+		height:55px;
+		
+		
+	}
+	html #content2{
+		height:55px;
+		}/*for IE6 and under*/
+		
+		
+		
+		
+#lgprod{
+	
+	float:left;
+	display:inline;
+	margin:10px 5px 0 5px;
+	color:#666;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+}
+
+	#lgprod a {
+	
+	float: left;
+	padding: 1px 20px 1px 20px;
+	text-transform:inherit;
+	text-decoration: none;
+	
+	font-size: 16px;
+	font-weight: bold;
+	color:#666;
+	
+}
+#lgprod a:hover {
+	color:#09F;
+}
+
+#lgprod .first a {
+	border: none;
+}
+	
+	#lgcontact{
+	
+	float:right;
+	display:block;
+	/*display:inline;*/
+	margin:10px 30px 0 25px;
+	color:#39F;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+}
+
+	#lgcontact a {
+	
+	float: left;
+	padding: 5px 20px 1px 20px;
+	text-transform:lowercase;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	color:#303;
+	
+}
+#lgcontact a:hover {
+	color:#09F;
+}
+
+#lgcontact .first a {
+	border: none;
+}
+
+
+
+
+
+#footer{
+	height:50px;
+	width:1040px;
+	float:none;
+	background-image:url(images/footer.jpg);
+	background-color:#FFF;
+	background-repeat:repeat;
+	background-position:center top;
+	margin-left:30%;
+	margin-right:30%;
+	margin-top:5%;
+	margin-bottom:5%;
+	padding:1%;
+}
+#content3{
+		width:1040px;
+		height:25px;
+		
+		
+	}
+	html #content3{
+		height:50px;
+	
+		}/*for IE6 and under*/
+
+
+
+	
+	
+	#validatori{
+	display:inline;
+	float:right;
+	height:36px;
+	padding:0.7%;
+	
+	}
+
+	
+#copyright{
+	display:inline;
+	float:left;
+	height:30px;
+	vertical-align:middle;
+	color:#666;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	padding:2%;
+	}
+	/*produse*/
+	#menu2 {/*meniu orizontal*/
+	width: 998px;
+	height:38px;
+	margin: 10px 5px 0 0;
+	padding:1px;
+	text-align:center;
+	text-transform:lowercase;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:normal;
+	font-size:12px;
+	line-height: normal;
+	font-weight:100;
+
+}
+
+#menu2 ul /*meniu orizontal*/
+{
+	width:998px;
+	height: 38px;
+	margin:0 5px 0 5px;
+	padding: 1px;
+	list-style: none;
+
+
+}
+
+#menu2 li {
+	display: inline;
+	width: auto;
+	
+}
+
+
+
+#menu2 a:hover {/*meniu orizontal*/
+	background:#39F;
+	color:#FFF;
+}
+
+#menu2 .first a {
+	border: none;
+}
+
+
+
+
+#sddm2/*meniu orizontal*/
+{
+	/*position:relative;*/
+	margin: 0 0 0  0;
+	padding: 0;
+	/*z-index: 40;*/
+	text-transform:lowercase;
+	
+}
+
+#sddm2 li/*meniu orizontal*/
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font-size: 12px;
+	background-position: center;
+	width: 12%;
+	cursor:  crosshair;
+	font-weight: bold;
+	text-transform: capitalize;
+	border: 1px solid;
+	border-color:#06F;
+	white-space:nowrap;
+}
+
+#sddm2 li a/*meniu orizontal*/
+{
+	display: block;
+	width: 100%;
+	color: #09F;
+	text-align: center;
+	padding-top: 7px;
+	padding-right: 0px;
+	padding-bottom: 7px;
+	padding-left: 0px;
+	text-decoration: none;
+	/*background-color: #FFF;*/
+	/*border color:#09F;*/
+
+}
+
+#sddm2li a:hover
+{
+	color: #FFF;
+	background-color: #09F;
+	}
+
+#sddm2 div
+{
+	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 2px;
+	color: #09F;
+	/*border-width:0.8px;
+	border-style:solid;
+	border-color:#FFF;*/
+}
+
+	#sddm2 div a /*meniu vertical*/
+	{
+	position: relative;
+	display: block;
+	margin: 2px;
+	width: auto;
+	white-space: nowrap;
+	text-align: left;
+	text-decoration: none;
+	background:#FFF;
+	color: #09F;
+	font-size: 12px;
+	border-color:#06F;
+	border-style:solid;
+	border-width:1px;
+}
+
+	#sddm2 div a:hover
+	{
+	color: #FFF;
+	/*color: #FFF;
+	background-color: #09F;*/
+}
+
+#frame{
+	top:50px;
+	/*position:relative;*/
+	
+	left:0;
+	right:0;
+	/*z-index:25;*/
+	}
+	
+	/*despre noi*/
+	
+	#pgabout{
+		width:995px;
+		height:880px;
+		}
+	#continut{
+		
+		width:995px;
+		height:880px;
+		display:inline;
+		}
+	.imagini{
+		width:296px;
+		display:inline;
+		float:left;
+				
+		}
+.text1 {
+	
+	color:#666;
+	width:670px;
+	padding-left: 10px;
+	display:inline;
+	float:right;
+	position:relative;
+	z-index:20;
+	
+	
+}
+
+.text1 .content {
+	/*line-height: 1.8em;*/
+	width: 50px;
+	padding-left:5%;
+	padding-right:5%;
+	float:right;
+	
+}
+
+
+.bar {
+	width: 350px;
+	background-color:#39F;
+	background-image:url(images/Untitled-1.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	color: #FFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 17px;
+	border-color:#999;
+	border-style:solid;
+	border-width:1px;
+}
+
+/*contact*/
+
+.text{
+	
+	clear: both;
+	width:498px;
+	/*color:#666;*/
+	display:inline;
+	float:left;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right:0;
+	padding-bottom:20px;
+	
+}
+
+.text .content {
+	/*line-height: 1.8em;*/
+	width: 468px;
+	padding-left:5%;
+	padding-right:1%;
+	padding-bottom:5%;
+	
+}
+
+
+
+
+
+.googlem{
+	margin-top:15px;	
+	margin:0;
+	border-color:#0066FF;
+	border-style:ridge;
+	border-width:2px;
+	}
+	
+#cont{
+		width:998px;
+		height:365px;
+		
+	}
+	html #cont{
+		height:365px;
+		}/*for IE6 and under*/
+		
+#contact-form{
+	padding-top:3px;
+	width:478px;
+	float:right;
+	display:inline;
+	margin:0 0 10px 0;
+	
+	}	
+#maifc{
+	width:auto;
+	display:inline;
+	}
+		
+#mail{
+	float:left;
+	}
+#facebook{
+	float:right;
+	height:auto;
+	}
+		
+.txt{		
+color:#666;}	
+
+#link{
+	float: right;
+	width:1075px;
+	padding-right:0;
+	padding-top: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	position:absolute;
+	top:1080px;
+	left:115px;
+	bottom:0;
+	clear:left;
+}
